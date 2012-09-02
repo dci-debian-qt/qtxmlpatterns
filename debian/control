@@ -1,0 +1,112 @@
+Source: qtxmlpatterns-opensource-src
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           Sune Vuorela <debian@pusling.com>,
+           Pino Toscano <pino@debian.org>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Build-Depends: debhelper (>= 9),
+               dpkg-dev (>= 1.16.1),
+               libqtopengl5-dev (>= 5),
+               pkg-kde-tools,
+               qtbase5-private-dev (>= 5)
+Standards-Version: 3.9.3
+Homepage: http://qt-project.org/
+Vcs-Git: git://git.debian.org/pkg-kde/qt/qtxmlpatterns.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qtxmlpatterns.git;a=summary
+
+Package: libqtxmlpatterns5-dev
+Section: libdevel
+Architecture: any
+Depends: libqtxmlpatterns5 (= ${binary:Version}), ${misc:Depends}
+Description: Qt 4 XML patterns development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications using QtXmlPatterns library.
+
+Package: qtxmlpatterns5-dev-bin
+Architecture: any
+Multi-Arch: foreign
+Section: devel
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 XML patterns development programs
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development programs such as xmlpatterns and
+ xmlpatternsvalidator.
+
+Package: libqtxmlpatterns5-private-dev
+Architecture: any
+Section: libdevel
+Depends: libqtxmlpatterns5-dev (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 5 XML patterns private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the private header development files for building some
+ Qt 5 applications using XML patterns private headers.
+ .
+ Use at your own risk.
+
+Package: libqtxmlpatterns5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 4 XML patterns module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ QtXmlPatterns is a XQuery and XPath engine for XML and custom data models.
+
+Package: libqtxmlpatterns5-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: libqtxmlpatterns5 (= ${binary:Version}), ${misc:Depends}
+Description: Qt 5 XML patterns library debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 XML patterns
+ libraries.
+
+Package: qtxmlpatterns5-dev-bin-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: qtxmlpatterns5-dev-bin (= ${binary:Version}), ${misc:Depends}
+Description: Qt 5 XML patterns binaries debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 binaries.
+
+Package: qtxmlpatterns5-examples-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: qtxmlpatterns5-examples (= ${binary:Version}), ${misc:Depends}
+Recommends: qtbase5-dbg
+Description: Qt 5 XML patterns examples debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 XML patterns examples.
+
+Package: qtxmlpatterns5-examples
+Architecture: any
+Section: x11
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 XML patterns examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 5 XML patterns examples.
