@@ -16,6 +16,17 @@ Homepage: http://qt-project.org/
 Vcs-Git: git://git.debian.org/pkg-kde/qt/qtxmlpatterns.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qtxmlpatterns.git;a=summary
 
+Package: libqtxmlpatterns5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 XML patterns module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ QtXmlPatterns is a XQuery and XPath engine for XML and custom data models.
+
 Package: libqtxmlpatterns5-dev
 Section: libdevel
 Architecture: any
@@ -26,18 +37,6 @@ Description: Qt 5 XML patterns development files
  .
  This package contains the header development files used for building Qt 5
  applications using QtXmlPatterns library.
-
-Package: qtxmlpatterns5-dev-tools
-Architecture: any
-Multi-Arch: foreign
-Section: devel
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 XML patterns development programs
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the development programs such as xmlpatterns and
- xmlpatternsvalidator.
 
 Package: libqtxmlpatterns5-private-dev
 Architecture: any
@@ -54,51 +53,17 @@ Description: Qt 5 XML patterns private development files
  .
  Use at your own risk.
 
-Package: libqtxmlpatterns5
+Package: qtxmlpatterns5-dev-tools
 Architecture: any
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
+Multi-Arch: foreign
+Section: devel
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 XML patterns module
+Description: Qt 5 XML patterns development programs
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- QtXmlPatterns is a XQuery and XPath engine for XML and custom data models.
-
-Package: libqtxmlpatterns5-dbg
-Priority: extra
-Architecture: any
-Section: debug
-Depends: libqtxmlpatterns5 (= ${binary:Version}), ${misc:Depends}
-Description: Qt 5 XML patterns library debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 XML patterns
- libraries.
-
-Package: qtxmlpatterns5-dev-tools-dbg
-Priority: extra
-Architecture: any
-Section: debug
-Depends: qtxmlpatterns5-dev-bin (= ${binary:Version}), ${misc:Depends}
-Description: Qt 5 XML patterns binaries debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 binaries.
-
-Package: qtxmlpatterns5-examples-dbg
-Priority: extra
-Architecture: any
-Section: debug
-Depends: qtxmlpatterns5-examples (= ${binary:Version}), ${misc:Depends}
-Recommends: qtbase5-dbg
-Description: Qt 5 XML patterns examples debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 XML patterns examples.
+ This package contains the development programs such as xmlpatterns and
+ xmlpatternsvalidator.
 
 Package: qtxmlpatterns5-examples
 Architecture: any
@@ -109,3 +74,18 @@ Description: Qt 5 XML patterns examples
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt 5 XML patterns examples.
+
+Package: qtxmlpatterns5-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: libqtxmlpatterns5 (= ${binary:Version}),
+         qtxmlpatterns5-dev-tools (= ${binary:Version}),
+         qtxmlpatterns5-examples (= ${binary:Version}),
+         ${misc:Depends}
+Description: Qt 5 XML patterns library debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 XML patterns
+ libraries.
