@@ -27,7 +27,7 @@ Description: Qt 5 XML patterns development files
  This package contains the header development files used for building Qt 5
  applications using QtXmlPatterns library.
 
-Package: qtxmlpatterns5-dev-bin
+Package: qtxmlpatterns5-dev-tools
 Architecture: any
 Multi-Arch: foreign
 Section: devel
@@ -77,7 +77,7 @@ Description: Qt 5 XML patterns library debugging symbols
  This package contains the debugging symbols for the Qt 5 XML patterns
  libraries.
 
-Package: qtxmlpatterns5-dev-bin-dbg
+Package: qtxmlpatterns5-dev-tools-dbg
 Priority: extra
 Architecture: any
 Section: debug
