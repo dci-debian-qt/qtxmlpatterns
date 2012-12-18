@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+update-alternatives --install \
+    /usr/bin/xmlpatterns xmlpatterns "/usr/bin/xmlpatterns-qt5" "40" \
+    --slave /usr/share/man/man1/xmlpatterns.1.gz xmlpatterns.1.gz \
+    "/usr/share/man/man1/xmlpatterns-qt5.1.gz"
+
+update-alternatives --install \
+    /usr/bin/xmlpatternsvalidator xmlpatternsvalidator "/usr/bin/xmlpatternsvalidator-qt5" "40" \
+    --slave /usr/share/man/man1/xmlpatternsvalidator.1.gz xmlpatternsvalidator.1.gz \
+    "/usr/share/man/man1/xmlpatternsvalidator-qt5.1.gz"
+
+#DEBHELPER#
+

@@ -16,7 +16,7 @@ Homepage: http://qt-project.org/
 Vcs-Git: git://git.debian.org/pkg-kde/qt/qtxmlpatterns.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qtxmlpatterns.git;a=summary
 
-Package: libqtxmlpatterns5
+Package: libqt5xmlpatterns5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -27,10 +27,10 @@ Description: Qt 5 XML patterns module
  .
  QtXmlPatterns is a XQuery and XPath engine for XML and custom data models.
 
-Package: libqtxmlpatterns5-dev
+Package: libqt5xmlpatterns5-dev
 Section: libdevel
 Architecture: any
-Depends: libqtxmlpatterns5 (= ${binary:Version}), ${misc:Depends}
+Depends: libqt5xmlpatterns5 (= ${binary:Version}), ${misc:Depends}
 Description: Qt 5 XML patterns development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -38,10 +38,10 @@ Description: Qt 5 XML patterns development files
  This package contains the header development files used for building Qt 5
  applications using QtXmlPatterns library.
 
-Package: libqtxmlpatterns5-private-dev
+Package: libqt5xmlpatterns5-private-dev
 Architecture: any
 Section: libdevel
-Depends: libqtxmlpatterns5-dev (= ${binary:Version}),
+Depends: libqt5xmlpatterns5-dev (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Qt 5 XML patterns private development files
@@ -79,7 +79,7 @@ Package: qtxmlpatterns5-dbg
 Priority: extra
 Architecture: any
 Section: debug
-Depends: libqtxmlpatterns5 (= ${binary:Version}),
+Depends: libqt5xmlpatterns5 (= ${binary:Version}),
          qtxmlpatterns5-dev-tools (= ${binary:Version}),
          qtxmlpatterns5-examples (= ${binary:Version}),
          ${misc:Depends}
