@@ -1,2 +1,2 @@
-usr/bin/xmlpatterns-qt5
-usr/bin/xmlpatternsvalidator-qt5
+usr/lib/*/qt5/bin/xmlpatterns
+usr/lib/*/qt5/bin/xmlpatternsvalidator

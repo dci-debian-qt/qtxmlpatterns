@@ -1,6 +1,6 @@
 Format: http://dep.debian.net/deps/dep5
 Upstream-Name: qtxmlpatterns-opensource-src
-Source: http://origin.releases.qt-project.org/qt5.0/rc2/submodules_tar/
+Source: http://releases.qt-project.org/qt5/5.0.0/submodules_tar/
 
 Files: *
 Copyright: 2008-2012 Nokia Corporation and/or its subsidiary(-ies).
@@ -13,7 +13,7 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2008-2012 Modestas Vainius <modax@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
-           2012 Timo Jyrinki <timo@debian.org>
+           2012 Timo Jyrinki <timo.jyrinki@canonical.com>
 License: LGPL-2.1
 
 License: LGPL-2.1 with Nokia Qt LGPL exception
