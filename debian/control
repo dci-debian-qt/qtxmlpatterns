@@ -63,6 +63,7 @@ Multi-Arch: foreign
 Section: devel
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: qtchooser
 Description: Qt 5 XML patterns development programs
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
