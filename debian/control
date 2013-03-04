@@ -32,7 +32,6 @@ Description: Qt 5 XML patterns module
 Package: libqt5xmlpatterns5-dev
 Section: libdevel
 Architecture: any
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: libqt5xmlpatterns5 (= ${binary:Version}), ${misc:Depends}
 Description: Qt 5 XML patterns development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -44,7 +43,6 @@ Description: Qt 5 XML patterns development files
 Package: libqt5xmlpatterns5-private-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: libqt5xmlpatterns5-dev (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
