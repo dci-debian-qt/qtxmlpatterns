@@ -8,16 +8,23 @@ export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildfla
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
 %:
-	dh $@ --list-missing --parallel --with pkgkde_symbolshelper --dbg-package=qtxmlpatterns5-dbg
+	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtxmlpatterns5-dbg
 
 override_dh_auto_configure:
 	qmake
 
 override_dh_auto_install:
 	dh_auto_install
+
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/*/pkgconfig -type f -name '*.pc' \
 	-exec sed -i -e 's/$(DEB_HOST_MULTIARCH)\/$(DEB_HOST_MULTIARCH)/$(DEB_HOST_MULTIARCH)/g' {} \;
+
+	# Remove libtool-like file
+	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
+
+override_dh_install:
+	dh_install --fail-missing
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
