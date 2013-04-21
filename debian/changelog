@@ -9,6 +9,8 @@ qtxmlpatterns-opensource-src (5.0.2-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * debian/control: remove unused ${shlibs:Depends} from
     libqt5xmlpatterns5-private-dev.
+  * debian/control: remove unused ${misc:Pre-Depends} from
+    qtxmlpatterns5-dev-tools and qtxmlpatterns5-examples.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 09:43:42 -0300
 
