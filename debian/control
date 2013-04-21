@@ -44,7 +44,6 @@ Architecture: any
 Section: libdevel
 Depends: libqt5xmlpatterns5-dev (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
 Description: Qt 5 XML patterns private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

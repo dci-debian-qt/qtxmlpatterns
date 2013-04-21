@@ -6,6 +6,10 @@ qtxmlpatterns-opensource-src (5.0.2-2) UNRELEASED; urgency=low
     - Remove qt5-default as B-D, as it's not really needed now.
   * Confirm symbols for i386, ia64 and powerpc.
 
+  [ Pino Toscano ]
+  * debian/control: remove unused ${shlibs:Depends} from
+    libqt5xmlpatterns5-private-dev.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 09:43:42 -0300
 
 qtxmlpatterns-opensource-src (5.0.2-1) experimental; urgency=low
