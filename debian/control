@@ -84,9 +84,9 @@ Priority: extra
 Architecture: any
 Section: debug
 Depends: libqt5xmlpatterns5 (= ${binary:Version}),
-         qtxmlpatterns5-dev-tools (= ${binary:Version}),
-         qtxmlpatterns5-examples (= ${binary:Version}),
          ${misc:Depends}
+Suggests: qtxmlpatterns5-dev-tools (= ${binary:Version}),
+          qtxmlpatterns5-examples (= ${binary:Version}),
 Description: Qt 5 XML patterns library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
