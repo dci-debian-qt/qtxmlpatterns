@@ -4,6 +4,7 @@ qtxmlpatterns-opensource-src (5.0.2-2) UNRELEASED; urgency=low
   * Export QT_SELECT=qt5 to avoid a FTBFS when the debhelper patch that makes
     Qt4 as default get included.
     - Remove qt5-default as B-D, as it's not really needed now.
+  * Confirm symbols for i386, ia64 and powerpc.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 09:43:42 -0300
 
