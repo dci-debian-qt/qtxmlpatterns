@@ -14,6 +14,7 @@ qtxmlpatterns-opensource-src (5.0.2-2) UNRELEASED; urgency=low
   * debian/control: leave only libqt5xmlpatterns5 as dependency for
     qtxmlpatterns5-dbg, demoting as suggests qtxmlpatterns5-dev-tools and
     qtxmlpatterns5-examples.
+  * Update symbols file also for alpha, powerpcspe and ppc64.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 09:43:42 -0300
 
