@@ -16,6 +16,7 @@ qtxmlpatterns-opensource-src (5.0.2-2) UNRELEASED; urgency=low
     qtxmlpatterns5-examples.
   * Update symbols file also for alpha, powerpcspe and ppc64.
   * debian/control: make libqt5xmlpatterns5-dev depend on qtbase5-dev.
+  * Update Vcs-Browser and Vcs-Git headers.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 09:43:42 -0300
 
