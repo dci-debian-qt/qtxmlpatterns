@@ -1,4 +1,4 @@
-qtxmlpatterns-opensource-src (5.0.2-2) UNRELEASED; urgency=low
+qtxmlpatterns-opensource-src (5.0.2-2) experimental; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Export QT_SELECT=qt5 to avoid a FTBFS when the debhelper patch that makes
@@ -18,7 +18,7 @@ qtxmlpatterns-opensource-src (5.0.2-2) UNRELEASED; urgency=low
   * debian/control: make libqt5xmlpatterns5-dev depend on qtbase5-dev.
   * Update Vcs-Browser and Vcs-Git headers.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 09:43:42 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 28 Apr 2013 11:10:05 -0300
 
 qtxmlpatterns-opensource-src (5.0.2-1) experimental; urgency=low
 
