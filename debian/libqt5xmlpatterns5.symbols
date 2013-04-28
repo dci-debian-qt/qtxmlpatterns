@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 alpha amd64 ia64 powerpc powerpcspe ppc64
+# SymbolsHelper-Confirmed: 5.0.2 alpha armhf amd64 ia64 powerpc powerpcspe ppc64 s390x
 libQt5XmlPatterns.so.5 libqt5xmlpatterns5 #MINVER#
  _Z5qHashRK15QSourceLocation@Base 5.0.2
  _Z5qHashRK18QXmlNodeModelIndex@Base 5.0.2
