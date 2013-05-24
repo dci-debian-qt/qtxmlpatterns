@@ -1,5 +1,8 @@
 qtxmlpatterns-opensource-src (5.0.2-3) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Make every package that ships a binary managed by qtchooser depend on it.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 May 2013 21:31:36 -0300
 
 qtxmlpatterns-opensource-src (5.0.2-2) experimental; urgency=low
