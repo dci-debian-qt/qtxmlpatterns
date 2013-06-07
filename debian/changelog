@@ -7,6 +7,7 @@ qtxmlpatterns-opensource-src (5.0.2-3) UNRELEASED; urgency=low
       * qttools5-dev-tools to use qhelpgenerator.
       * libqt5sql5-sqlite to generate qch doc.
     - Build and create a packages for qch and HTML doc formats.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 May 2013 21:31:36 -0300
 
