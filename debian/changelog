@@ -5,6 +5,8 @@ qtxmlpatterns-opensource-src (5.1.0-1) UNRELEASED; urgency=low
   * Update watch file.
   * Bump build dependencies to 5.1.0~.
   * Update symbols files.
+  * Make libqt5xmlpatterns5 provide qtxmlpatterns-abi-5-1-0 for handling
+    packages that build-depend on private symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Jul 2013 19:10:51 -0300
 
