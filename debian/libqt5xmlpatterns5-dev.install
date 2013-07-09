@@ -15,6 +15,7 @@ usr/include/qt5/QtXmlPatterns/QXmlSchema
 usr/include/qt5/QtXmlPatterns/QXmlSchemaValidator
 usr/include/qt5/QtXmlPatterns/QXmlSerializer
 usr/include/qt5/QtXmlPatterns/QtXmlPatterns
+usr/include/qt5/QtXmlPatterns/QtXmlPatternsDepends
 usr/include/qt5/QtXmlPatterns/QtXmlPatternsVersion
 usr/include/qt5/QtXmlPatterns/qabstractmessagehandler.h
 usr/include/qt5/QtXmlPatterns/qabstracturiresolver.h
