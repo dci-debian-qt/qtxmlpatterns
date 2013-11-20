@@ -4,6 +4,7 @@ qtxmlpatterns-opensource-src (5.2.0~beta1-1) UNRELEASED; urgency=low
   * New upstream beta release.
   * Bump qtbase and qttools build-dependencies to 5.2.0~beta1.
   * Explicitly define DEB_HOST_MULTIARCH in debian/rules.
+  * Add myself to Uploaders.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 24 Oct 2013 09:48:30 +0400
 
