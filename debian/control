@@ -25,7 +25,7 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Provides: qtxmlpatterns-abi-5-1-0
+Provides: qtxmlpatterns-abi-5-2-0
 Description: Qt 5 XML patterns module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
