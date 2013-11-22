@@ -1,10 +1,9 @@
-qtxmlpatterns-opensource-src (5.2.0~beta1-2) UNRELEASED; urgency=low
+qtxmlpatterns-opensource-src (5.2.0~beta1-2) experimental; urgency=low
 
-  [ Dmitry Shachnev ]
   * Update libqt5xmlpatterns5.symbols for ia64, powerpc, s390x and sparc.
   * Bump ABI package name to qtxmlpatterns-abi-5-2-0.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 21 Nov 2013 19:19:42 +0400
+ -- Dmitry Shachnev <mitya57@gmail.com>  Fri, 22 Nov 2013 18:33:00 +0400
 
 qtxmlpatterns-opensource-src (5.2.0~beta1-1) experimental; urgency=low
 
