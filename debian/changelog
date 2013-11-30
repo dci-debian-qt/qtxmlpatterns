@@ -1,3 +1,7 @@
+qtxmlpatterns-opensource-src (5.2.0~beta1-3) UNRELEASED; urgency=low
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 30 Nov 2013 14:25:43 -0300
+
 qtxmlpatterns-opensource-src (5.2.0~beta1-2) experimental; urgency=low
 
   * Update libqt5xmlpatterns5.symbols for ia64, powerpc, s390x and sparc.
