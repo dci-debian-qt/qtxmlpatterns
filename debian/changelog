@@ -3,6 +3,7 @@ qtxmlpatterns-opensource-src (5.2.0~rc1-1) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release candidate.
   * Update symbols files with buildds' logs.
+  * Adjust Qt build dependencies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 30 Nov 2013 14:25:43 -0300
 
