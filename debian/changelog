@@ -1,7 +1,7 @@
-qtxmlpatterns-opensource-src (5.2.0~rc1-1) UNRELEASED; urgency=low
+qtxmlpatterns-opensource-src (5.2.0-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * New upstream release candidate.
+  * New upstream release.
   * Update symbols files with buildds' logs.
   * Adjust Qt build dependencies.
   * Adjust install files.
