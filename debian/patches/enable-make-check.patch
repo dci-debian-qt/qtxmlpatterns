@@ -1,0 +1,28 @@
+--- a/tests/auto/auto.pro
++++ b/tests/auto/auto.pro
+@@ -19,12 +19,10 @@ SUBDIRS=\
+            qxmlname                     \
+            qxmlnamepool                 \
+            qxmlnodemodelindex           \
+-           qxmlquery                    \
+            qxmlresultitems              \
+            qxmlschema                   \
+            qxmlschemavalidator          \
+            qxmlserializer               \
+-           xmlpatterns                  \
+            xmlpatternsdiagnosticsts     \
+            xmlpatternsschema            \
+            xmlpatternsschemats          \
+@@ -32,7 +30,11 @@ SUBDIRS=\
+            xmlpatternsvalidator         \
+            xmlpatternsview              \
+            xmlpatternsxqts              \
+-           xmlpatternsxslts             \
++           xmlpatternsxslts
++
++#skip the network tests for unix platform.
++!unix:SUBDIRS += qxmlquery
++!unix:SUBDIRS += xmlpatterns
+ 
+ xmlpatternsdiagnosticsts.depends = xmlpatternssdk
+ xmlpatternsview.depends = xmlpatternssdk
