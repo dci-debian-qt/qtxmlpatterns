@@ -365,3 +365,4 @@ usr/include/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qxsltsimplecontentconstruc
 usr/include/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qxslttokenizer_p.h
 usr/include/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qxslttokenlookup_p.h
 usr/include/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qyearmonthduration_p.h
+usr/share/qt5/mkspecs/modules/qt_lib_xmlpatterns_private.pri

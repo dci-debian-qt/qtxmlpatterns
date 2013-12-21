@@ -39,4 +39,3 @@ usr/lib/*/libQt5XmlPatterns.prl
 usr/lib/*/libQt5XmlPatterns.so
 usr/lib/*/pkgconfig/Qt5XmlPatterns.pc
 usr/share/qt5/mkspecs/modules/qt_lib_xmlpatterns.pri
-usr/share/qt5/mkspecs/modules/qt_lib_xmlpatterns_private.pri
