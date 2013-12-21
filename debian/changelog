@@ -8,7 +8,7 @@ qtxmlpatterns-opensource-src (5.2.0-2) UNRELEASED; urgency=low
 
   [ Iftikhar Ahmad ]
   * Enable make check.
-  * Conditionally skip the network dependent unit tests. 
+  * Conditionally skip the network dependent unit tests.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 12 Dec 2013 23:40:02 -0300
 
