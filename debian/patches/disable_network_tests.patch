@@ -1,3 +1,8 @@
+Description: disable tests that require network connection
+Author: Iftikhar Ahmad <iftikhar.ahmad@canonical.com>
+Forwarded: not-needed
+Last-Update: 2013-01-03
+
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
 @@ -19,12 +19,10 @@ SUBDIRS=\

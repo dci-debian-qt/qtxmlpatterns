@@ -1,1 +1,1 @@
-enable-make-check.patch
+disable_network_tests.patch
