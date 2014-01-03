@@ -19,6 +19,7 @@ qtxmlpatterns-opensource-src (5.2.0-2) UNRELEASED; urgency=low
   [ Dmitry Shachnev ]
   * Rename enable-make-test.patch to disable_network_tests.diff (to explain what
     it really does and follow the naming convention), and add DEP-3 headers.
+  * Run tests in build target, and use dh_auto_test.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 12 Dec 2013 23:40:02 -0300
 
