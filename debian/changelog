@@ -2,6 +2,7 @@ qtxmlpatterns-opensource-src (5.2.0-2) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Properly adjust build dependencies.
+  * Fix documentation description (Closes: #734248).
 
   [ Timo Jyrinki ]
   * Don't depend on "+dfsg" qttools
