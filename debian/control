@@ -13,10 +13,9 @@ Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
                pkg-kde-tools,
                qtbase5-private-dev (>= 5.2.0+dfsg~),
-               xvfb,
-               xauth
-Build-Depends-Indep: libqt5sql5-sqlite,
-               qttools5-dev-tools (>= 5.2.0-1~)
+               xauth,
+               xvfb
+Build-Depends-Indep: libqt5sql5-sqlite, qttools5-dev-tools (>= 5.2.0-1~)
 Standards-Version: 3.9.5
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtxmlpatterns.git
@@ -37,8 +36,7 @@ Description: Qt 5 XML patterns module
 Package: libqt5xmlpatterns5-dev
 Section: libdevel
 Architecture: any
-Depends: libqt5xmlpatterns5 (= ${binary:Version}), ${misc:Depends},
- qtbase5-dev
+Depends: libqt5xmlpatterns5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
 Description: Qt 5 XML patterns development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -49,8 +47,7 @@ Description: Qt 5 XML patterns development files
 Package: libqt5xmlpatterns5-private-dev
 Architecture: any
 Section: libdevel
-Depends: libqt5xmlpatterns5-dev (= ${binary:Version}),
-         ${misc:Depends},
+Depends: libqt5xmlpatterns5-dev (= ${binary:Version}), ${misc:Depends}
 Breaks: libqt5xmlpatterns5-dev (<< 5.2.0-2~)
 Replaces: libqt5xmlpatterns5-dev (<< 5.2.0-2~)
 Description: Qt 5 XML patterns private development files
@@ -90,10 +87,9 @@ Priority: extra
 Architecture: any
 Multi-Arch: same
 Section: debug
-Depends: libqt5xmlpatterns5 (= ${binary:Version}),
-         ${misc:Depends}
+Depends: libqt5xmlpatterns5 (= ${binary:Version}), ${misc:Depends}
 Suggests: qtxmlpatterns5-dev-tools (= ${binary:Version}),
-          qtxmlpatterns5-examples (= ${binary:Version}),
+          qtxmlpatterns5-examples (= ${binary:Version})
 Description: Qt 5 XML patterns library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
