@@ -5,6 +5,7 @@ qtxmlpatterns-opensource-src (5.2.0-2) UNRELEASED; urgency=low
   * Fix documentation description (Closes: #734248).
   * Update symbols files with buildd's logs.
   * Update Standards-Version to 3.9.5, no changes needed.
+  * Add xauth to build dependencies, needed for running the tests.
 
   [ Timo Jyrinki ]
   * Don't depend on "+dfsg" qttools
