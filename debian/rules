@@ -9,7 +9,6 @@ export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags -
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
-export QT_QPA_PLATFORM := minimal
 
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtxmlpatterns5-dbg
@@ -40,5 +39,5 @@ override_dh_builddeb:
 	dh_builddeb -- -Zxz
 
 override_dh_auto_test:
-	xvfb-run -a dh_auto_test
+	QT_QPA_PLATFORM=minimal xvfb-run -a dh_auto_test
 
