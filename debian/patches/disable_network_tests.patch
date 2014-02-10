@@ -1,33 +1,29 @@
 Description: disable tests that require network connection
 Author: Iftikhar Ahmad <iftikhar.ahmad@canonical.com>
 Forwarded: not-needed
-Last-Update: 2013-01-03
+Last-Update: 2014-02-10
 
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
-@@ -19,12 +19,10 @@ SUBDIRS=\
+@@ -19,10 +19,8 @@ SUBDIRS=\
             qxmlname                     \
             qxmlnamepool                 \
             qxmlnodemodelindex           \
 -           qxmlquery                    \
             qxmlresultitems              \
-            qxmlschema                   \
-            qxmlschemavalidator          \
             qxmlserializer               \
 -           xmlpatterns                  \
             xmlpatternsdiagnosticsts     \
-            xmlpatternsschema            \
-            xmlpatternsschemats          \
-@@ -32,7 +30,11 @@ SUBDIRS=\
+            xmlpatternssdk               \
             xmlpatternsvalidator         \
-            xmlpatternsview              \
+@@ -30,6 +28,10 @@ SUBDIRS=\
             xmlpatternsxqts              \
--           xmlpatternsxslts             \
-+           xmlpatternsxslts
-+
+            xmlpatternsxslts             \
+ 
 +#skip the network tests for unix platform.
 +!unix:SUBDIRS += qxmlquery
 +!unix:SUBDIRS += xmlpatterns
- 
- xmlpatternsdiagnosticsts.depends = xmlpatternssdk
- xmlpatternsview.depends = xmlpatternssdk
++
+ load(qfeatures)
+ !contains(QT_DISABLED_FEATURES, xmlschema) {
+     SUBDIRS += qxmlschema               \
