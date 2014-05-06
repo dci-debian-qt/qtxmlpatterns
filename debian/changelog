@@ -1,5 +1,8 @@
 qtxmlpatterns-opensource-src (5.2.1-5) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Fix headers location: they are now in a Multi-Arch qualified path.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 May 2014 23:48:58 -0300
 
 qtxmlpatterns-opensource-src (5.2.1-4) unstable; urgency=medium
