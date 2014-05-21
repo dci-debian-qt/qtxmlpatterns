@@ -20,7 +20,7 @@
 # TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-PRIVATE_HEADERS=libqtxmlpatterns5-private-dev/usr/include
+PRIVATE_HEADERS=libqt5xmlpatterns5-private-dev/usr/include
 
 error() {
 	echo $@
