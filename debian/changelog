@@ -2,6 +2,10 @@ qtxmlpatterns-opensource-src (5.3.0-2) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Development packages are now Multi-Arch: same.
+  * Search for private symbols at build time and produce a diff so as to be
+    able to get the changes from build logs.
+    - Modify mark_private_symbols.sh.
+    - Run mark_private_symbols.sh from debian/rules.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 May 2014 23:34:31 -0300
 
