@@ -34,7 +34,3 @@ override_dh_auto_install-indep:
 
 override_dh_install:
 	dh_install --fail-missing
-
-override_dh_auto_test:
-	QT_QPA_PLATFORM=minimal xvfb-run -a dh_auto_test
-

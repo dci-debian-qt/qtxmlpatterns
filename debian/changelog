@@ -1,5 +1,7 @@
 qtxmlpatterns-opensource-src (5.3.0-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Do not require Xvfb for running tests.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 12 Jun 2014 15:43:31 +0400
 
