@@ -1,3 +1,11 @@
+qtxmlpatterns-opensource-src (5.3.1-4) UNRELEASED; urgency=medium
+
+  [ Adam Majer ]
+  * Add xmlpatterns_stack_overflow_fix.diff which changes a recursive call
+    into iteration fixing stack overflow in XmlPatterns.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Sep 2014 11:58:00 -0500
+
 qtxmlpatterns-opensource-src (5.3.1-3) unstable; urgency=medium
 
   * Build depend upon qtbase >= 5.3.1-2 to depend on qtbase-abi-5-3-1.
