@@ -1,1 +1,2 @@
 disable_network_tests.patch
+iterator_stack_overflow_fix.diff
