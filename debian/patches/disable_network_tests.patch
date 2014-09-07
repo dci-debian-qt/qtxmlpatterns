@@ -1,7 +1,7 @@
 Description: disable tests that require network connection
 Author: Iftikhar Ahmad <iftikhar.ahmad@canonical.com>
 Forwarded: not-needed
-Last-Update: 2014-02-10
+Last-Update: 2014-09-07
 
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
@@ -16,14 +16,3 @@ Last-Update: 2014-02-10
             xmlpatternsdiagnosticsts     \
             xmlpatternssdk               \
             xmlpatternsvalidator         \
-@@ -30,6 +28,10 @@ SUBDIRS=\
-            xmlpatternsxqts              \
-            xmlpatternsxslts             \
- 
-+#skip the network tests for unix platform.
-+!unix:SUBDIRS += qxmlquery
-+!unix:SUBDIRS += xmlpatterns
-+
- load(qfeatures)
- !contains(QT_DISABLED_FEATURES, xmlschema) {
-     SUBDIRS += qxmlschema               \
