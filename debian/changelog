@@ -1,4 +1,4 @@
-qtxmlpatterns-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.3.2-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Simplify disable_network_tests.patch.
@@ -9,7 +9,7 @@ qtxmlpatterns-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build dependencies.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Sep 2014 15:27:12 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 16 Sep 2014 16:12:19 -0300
 
 qtxmlpatterns-opensource-src (5.3.1-4) unstable; urgency=medium
 
