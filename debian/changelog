@@ -1,9 +1,12 @@
-qtxmlpatterns-opensource-src (5.3.1-5) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Simplify disable_network_tests.patch.
   * Update my e-mail address.
   * Update Vcs-Browser field to point to cgit interface.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Sep 2014 15:27:12 +0400
 
