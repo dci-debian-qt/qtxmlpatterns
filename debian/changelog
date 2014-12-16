@@ -1,6 +1,5 @@
-qtxmlpatterns-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.4.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Drop iterator_stack_overflow_fix.diff, applied upstream.
   * Build-depend on qtbase 5.4.0.
@@ -8,7 +7,7 @@ qtxmlpatterns-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Update libqt5xmlpatterns5.symbols.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Dec 2014 18:32:02 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 16 Dec 2014 13:18:03 +0300
 
 qtxmlpatterns-opensource-src (5.3.2-2) unstable; urgency=medium
 
