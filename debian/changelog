@@ -2,6 +2,7 @@ qtxmlpatterns-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Drop iterator_stack_overflow_fix.diff, applied upstream.
   * Build-depend on qtbase 5.4.0.
   * Update debian/copyright to reflect LGPLv3 addition.
 
