@@ -6,6 +6,7 @@ qtxmlpatterns-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Build-depend on qtbase 5.4.0.
   * Update debian/copyright to reflect LGPLv3 addition.
   * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update libqt5xmlpatterns5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Dec 2014 18:32:02 +0300
 
