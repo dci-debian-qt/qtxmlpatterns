@@ -1,10 +1,9 @@
-qtxmlpatterns-opensource-src (5.4.0-2) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.4.0-2) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update debian/copyright.
   * Update debian/watch for new server name.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Jan 2015 15:45:51 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 17 Jan 2015 15:57:59 +0300
 
 qtxmlpatterns-opensource-src (5.4.0-1) experimental; urgency=medium
 
