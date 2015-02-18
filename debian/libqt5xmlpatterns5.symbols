@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 sparc
+# SymbolsHelper-Confirmed: 5.4.0 amd64
 libQt5XmlPatterns.so.5 libqt5xmlpatterns5 #MINVER#
 | libqt5xmlpatterns5 #MINVER#, qtxmlpatterns-abi-5-2-0
  _Z5qHashRK15QSourceLocation@Base 5.0.2
@@ -16,6 +16,7 @@ libQt5XmlPatterns.so.5 libqt5xmlpatterns5 #MINVER#
  _ZN10QXmlSchemaC2Ev@Base 5.0.2
  _ZN10QXmlSchemaD1Ev@Base 5.0.2
  _ZN10QXmlSchemaD2Ev@Base 5.0.2
+ _ZN10QXmlSchemaaSERKS_@Base 5.4.0
  _ZN12QXmlNamePoolC1EPN11QPatternist8NamePoolE@Base 5.0.2 1
  _ZN12QXmlNamePoolC1ERKS_@Base 5.0.2
  _ZN12QXmlNamePoolC1Ev@Base 5.0.2
