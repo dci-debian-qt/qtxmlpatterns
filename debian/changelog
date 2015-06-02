@@ -1,6 +1,5 @@
-qtxmlpatterns-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.4.2-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies to 5.4.2.
   * Clear up the list in Uploaders removing people who hasn't committed to the
@@ -9,7 +8,7 @@ qtxmlpatterns-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
   * Switch to using pkgkde-mark-private-symbols from pkg-kde-tools 0.15.17.
     - Remove copyright entry.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 08 May 2015 21:16:27 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 02 Jun 2015 16:35:38 -0300
 
 qtxmlpatterns-opensource-src (5.4.1-1) experimental; urgency=medium
 
