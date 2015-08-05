@@ -1,5 +1,7 @@
 qtxmlpatterns-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2015 19:50:36 +0300
 
