@@ -112,6 +112,7 @@ Files: src/xmlpatterns/environment/qreportcontext_p.h
        src/xmlpatterns/environment/createReportContext.xsl
 Copyright: 2005 W3C (MIT, ERCIM, Keio), All Rights Reserved
            2015 The Qt Company Ltd.
+License: LGPL-2.1-or-3 with Qt-1.1 exception
 
 Files: *.qdoc
 Copyright: 2015 The Qt Company Ltd.
