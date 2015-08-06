@@ -1,12 +1,11 @@
-qtxmlpatterns-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.5.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update debian/copyright.
   * Bump qtbase build-dependency to 5.5.0.
   * Remove symbols missing with GCC 5.
   * Update libqt5xmlpatterns5-private-dev.install for a file rename.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2015 19:50:36 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 06 Aug 2015 10:18:37 +0300
 
 qtxmlpatterns-opensource-src (5.4.2-2) unstable; urgency=medium
 
