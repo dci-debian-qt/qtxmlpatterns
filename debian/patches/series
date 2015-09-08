@@ -1,1 +1,2 @@
 disable_network_tests.patch
+tst_xmlpatternsvalidator.patch

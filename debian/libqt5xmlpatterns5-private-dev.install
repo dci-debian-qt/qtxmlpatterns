@@ -102,7 +102,6 @@ usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qdatetimefn_p.h
 usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qdatetimefns_p.h
 usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qdatetimefns_tpl_p.h
 usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qdaytimeduration_p.h
-usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qdebug_p.h
 usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qdecimal_p.h
 usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qdeduplicateiterator_p.h
 usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qdeepequalfn_p.h
@@ -303,6 +302,7 @@ usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qvariabledeclaration_p.h
 usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qvariableloader_p.h
 usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qvariablereference_p.h
 usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qwithparam_p.h
+usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qxmldebug_p.h
 usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qxmlpatternistcli_p.h
 usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qxmlquery_p.h
 usr/include/*/qt5/QtXmlPatterns/*/QtXmlPatterns/private/qxmlresultitems_p.h

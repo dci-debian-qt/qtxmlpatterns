@@ -1,3 +1,25 @@
+qtxmlpatterns-opensource-src (5.5.0-2) experimental; urgency=medium
+
+  * Test not-installed binary in tst_xmlpatternsvalidator
+    (tst_xmlpatternsvalidator.patch).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 20 Aug 2015 17:04:02 +0300
+
+qtxmlpatterns-opensource-src (5.5.0-1) experimental; urgency=medium
+
+  * Update debian/copyright.
+  * Bump qtbase build-dependency to 5.5.0.
+  * Remove symbols missing with GCC 5.
+  * Update libqt5xmlpatterns5-private-dev.install for a file rename.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 06 Aug 2015 10:18:37 +0300
+
+qtxmlpatterns-opensource-src (5.4.2-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 23 Jun 2015 00:34:07 -0300
+
 qtxmlpatterns-opensource-src (5.4.2-1) experimental; urgency=medium
 
   * New upstream release.
