@@ -1,3 +1,7 @@
+qtxmlpatterns-opensource-src (5.5.0-3) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Oct 2015 15:55:33 -0300
+
 qtxmlpatterns-opensource-src (5.5.0-2) experimental; urgency=medium
 
   * Test not-installed binary in tst_xmlpatternsvalidator
