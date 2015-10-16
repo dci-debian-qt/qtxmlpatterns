@@ -1,13 +1,12 @@
-qtxmlpatterns-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.5.1-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Expose HTML documentation (Closes: #751189).
   * New upstream release.
     - Bump Qt build dependencies.
   * Simplify libqt5xmlpatterns5-private-dev.install, there is a well
     known pattern for most of it's entries.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Oct 2015 15:55:33 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 16 Oct 2015 10:41:49 -0300
 
 qtxmlpatterns-opensource-src (5.5.0-2) experimental; urgency=medium
 
