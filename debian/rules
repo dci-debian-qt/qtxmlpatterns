@@ -32,5 +32,5 @@ override_dh_install:
 override_dh_makeshlibs:
 	dh_makeshlibs -V
 
-	# Check for private symbols not marked as such. Be verbose.
-	pkgkde-mark-private-symbols debian/libqt5xmlpatterns5-private-dev/usr/include
+	# Check for private symbols not marked as such.
+	pkgkde-mark-qt5-private-symbols
