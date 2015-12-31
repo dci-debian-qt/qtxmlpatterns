@@ -9,6 +9,7 @@ qtxmlpatterns-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
     will re-enable building them when we get qttools 5.6 built.
   * Update debian/libqt5xmlpatterns5.symbols using migrate-symbols.py script.
   * Bump qtxmlpatterns-abi to 5-6-0.
+  * Add new Qt_* symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 31 Dec 2015 14:21:35 +0300
 
