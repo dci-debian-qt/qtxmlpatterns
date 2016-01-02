@@ -13,6 +13,8 @@ qtxmlpatterns-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Switch to pkgkde-mark-qt5-private-symbols to mark private symbols.
     This gives us only one private symbol, but that is OK (the previous script
     gives two, but both are false positives).
+  * Remove the libqt5xmlpatterns5-private-dev package. Its only consumers were
+    qtdeclarative and qtwebkit, but they do not really need it.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 31 Dec 2015 14:21:35 +0300
 

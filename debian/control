@@ -40,22 +40,6 @@ Description: Qt 5 XML patterns development files
  This package contains the header development files used for building Qt 5
  applications using QtXmlPatterns library.
 
-Package: libqt5xmlpatterns5-private-dev
-Architecture: any
-Multi-Arch: same
-Section: libdevel
-Depends: libqt5xmlpatterns5-dev (= ${binary:Version}), ${misc:Depends}
-Breaks: libqt5xmlpatterns5-dev (<< 5.2.0-2~)
-Replaces: libqt5xmlpatterns5-dev (<< 5.2.0-2~)
-Description: Qt 5 XML patterns private development files
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the private header development files for building some
- Qt 5 applications using XML patterns private headers.
- .
- Use at your own risk.
-
 Package: qtxmlpatterns5-dev-tools
 Architecture: any
 Multi-Arch: foreign
