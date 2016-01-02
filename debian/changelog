@@ -1,6 +1,5 @@
-qtxmlpatterns-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.6.0~beta-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream beta release.
   * Update debian/watch to track experimental releases (needs to be reverted
     before uploading 5.6.0 final).
@@ -18,7 +17,7 @@ qtxmlpatterns-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Drop the no longer needed hack to fix wrong path in pkgconfig files.
   * Drop unused Expat license text from debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 31 Dec 2015 14:21:35 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 02 Jan 2016 22:55:15 +0300
 
 qtxmlpatterns-opensource-src (5.5.1-2) unstable; urgency=medium
 
