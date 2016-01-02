@@ -15,6 +15,7 @@ qtxmlpatterns-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
     (pkgkde-mark-private-symbols reported two, but both were false positives).
     Also, no package will be able to use them as we removed the -private-dev
     package. Drop the qtxmlpatterns-abi-* virtual package too.
+  * Drop the no longer needed hack to fix wrong path in pkgconfig files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 31 Dec 2015 14:21:35 +0300
 
