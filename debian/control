@@ -9,7 +9,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
-               pkg-kde-tools (>= 0.15.20),
+               pkg-kde-tools,
                qtbase5-private-dev (>= 5.6.0~beta+dfsg~)
 Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
@@ -21,7 +21,6 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Provides: qtxmlpatterns-abi-5-6-0
 Description: Qt 5 XML patterns module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

@@ -1,6 +1,5 @@
 # SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5XmlPatterns.so.5 libqt5xmlpatterns5 #MINVER#
-| libqt5xmlpatterns5 #MINVER#, qtxmlpatterns-abi-5-6-0
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
@@ -9,7 +8,7 @@ libQt5XmlPatterns.so.5 libqt5xmlpatterns5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
  Qt_5@Qt_5 5.6.0~beta
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _Z5qHashRK15QSourceLocation@Qt_5 5.0.2
  _Z5qHashRK18QXmlNodeModelIndex@Qt_5 5.0.2
  _Z5qHashRK8QXmlName@Qt_5 5.0.2
