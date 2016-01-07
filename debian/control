@@ -11,6 +11,8 @@ Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
                pkg-kde-tools,
                qtbase5-private-dev (>= 5.6.0~beta+dfsg~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.0~),
+                     qttools5-dev-tools (>= 5.6.0~)
 Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtxmlpatterns.git
@@ -75,4 +77,28 @@ Description: Qt 5 XML patterns library debugging symbols
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the debugging symbols for the Qt 5 XML patterns
+ libraries.
+
+Package: qtxmlpatterns5-doc
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 XML patterns documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 XML patterns
+ libraries.
+
+Package: qtxmlpatterns5-doc-html
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 XML patterns HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 XML patterns
  libraries.

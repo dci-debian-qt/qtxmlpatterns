@@ -16,6 +16,9 @@ export QT_SELECT := qt5
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
 
+override_dh_auto_build-indep:
+	dh_auto_build -- docs
+
 override_dh_auto_install-arch:
 	dh_auto_install
 
@@ -25,6 +28,9 @@ override_dh_auto_install-arch:
 
 	# Remove libtool-like file
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
+
+override_dh_auto_install-indep:
+	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_install:
 	dh_install --fail-missing
