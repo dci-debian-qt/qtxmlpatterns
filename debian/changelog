@@ -3,6 +3,7 @@ qtxmlpatterns-opensource-src (5.6.0~rc-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release candidate.
   * Bump qtbase build-dependency to 5.6.0~rc.
+  * Use recommended https URIs for Vcs fields.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Mar 2016 13:47:28 +0300
 
