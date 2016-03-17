@@ -1,12 +1,11 @@
-qtxmlpatterns-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.6.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump build-dependency on debhelper, for --dbgsym-migration.
   * Revert debian/watch to track final releases again.
   * Call rm with verbose flag in debian/rules.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Mar 2016 14:14:57 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 17 Mar 2016 18:29:07 +0100
 
 qtxmlpatterns-opensource-src (5.6.0~rc-1) experimental; urgency=medium
 
