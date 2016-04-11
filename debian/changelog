@@ -1,3 +1,50 @@
+qtxmlpatterns-opensource-src (5.6.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump build-dependency on debhelper, for --dbgsym-migration.
+  * Revert debian/watch to track final releases again.
+  * Call rm with verbose flag in debian/rules.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 17 Mar 2016 18:29:07 +0100
+
+qtxmlpatterns-opensource-src (5.6.0~rc-1) experimental; urgency=medium
+
+  * New upstream release candidate.
+  * Bump qtbase build-dependency to 5.6.0~rc.
+  * Use recommended https URIs for Vcs fields.
+  * Bump Standards-Version to 3.9.7, no changes needed.
+  * Migrate to automatic dbgsym packages.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 05 Mar 2016 14:00:17 +0300
+
+qtxmlpatterns-opensource-src (5.6.0~beta-2) experimental; urgency=medium
+
+  * Re-enable building the documentation.
+    - Build-depend on qttools5-dev-tools.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 08 Jan 2016 14:44:42 +0300
+
+qtxmlpatterns-opensource-src (5.6.0~beta-1) experimental; urgency=medium
+
+  * New upstream beta release.
+  * Update debian/watch to track experimental releases (needs to be reverted
+    before uploading 5.6.0 final).
+  * Bump qtbase build-dependency to 5.6.0~beta.
+  * Disable building docs. Upstream moved qdoc to qttools source, so we
+    will re-enable building them when we get qttools 5.6 built.
+  * Update debian/libqt5xmlpatterns5.symbols using migrate-symbols.py script.
+  * Add new Qt_* symbols.
+  * Remove the libqt5xmlpatterns5-private-dev package. Its only consumers were
+    qtdeclarative and qtwebkit, but they do not really need it.
+  * Stop marking private symbols. There are no real private symbols currently
+    (pkgkde-mark-private-symbols reported two, but both were false positives).
+    Also, no package will be able to use them as we removed the -private-dev
+    package. Drop the qtxmlpatterns-abi-* virtual package too.
+  * Drop the no longer needed hack to fix wrong path in pkgconfig files.
+  * Drop unused Expat license text from debian/copyright.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 02 Jan 2016 22:55:15 +0300
+
 qtxmlpatterns-opensource-src (5.5.1-2) unstable; urgency=medium
 
   * Upload to unstable.
