@@ -1,3 +1,17 @@
+qtxmlpatterns-opensource-src (5.6.1-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 13 Jun 2016 09:35:53 -0300
+
+qtxmlpatterns-opensource-src (5.6.1-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Bump Qt build dependencies.
+  * Bump Standards-Version to 3.9.8, no changes required.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 09 Jun 2016 15:14:35 -0300
+
 qtxmlpatterns-opensource-src (5.6.0-1) experimental; urgency=medium
 
   * New upstream release.
