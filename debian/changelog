@@ -1,3 +1,9 @@
+qtxmlpatterns-opensource-src (5.7.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 27 Jun 2016 15:06:59 +0200
+
 qtxmlpatterns-opensource-src (5.6.1-2) unstable; urgency=medium
 
   * Upload to unstable.
