@@ -1,5 +1,6 @@
 qtxmlpatterns-opensource-src (5.6.1-2~bpo8+0+nodoc) UNRELEASED; urgency=medium
 
+  * Upload to jessie-backports.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jul 2016 22:39:09 -0300
 
