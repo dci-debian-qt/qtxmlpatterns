@@ -1,6 +1,10 @@
 qtxmlpatterns-opensource-src (5.6.1-2~bpo8+0+nodoc) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Upload to jessie-backports.
+  * Drop down debhelper's 9.20160114 requirement to 9, as we don't have
+    dbgsyms in jessie-backports.
+    - Drop dh_strip's override in debian/rules.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jul 2016 22:39:09 -0300
 
