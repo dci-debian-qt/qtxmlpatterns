@@ -2,6 +2,7 @@ qtxmlpatterns-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream snapshot.
+  * Bump Qt build-dependencies to 5.7.1~20161021.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Oct 2016 21:24:59 +0300
 
