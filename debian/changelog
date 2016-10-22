@@ -1,10 +1,9 @@
-qtxmlpatterns-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream snapshot.
   * Bump Qt build-dependencies to 5.7.1~20161021.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Oct 2016 21:24:59 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 22 Oct 2016 15:44:31 +0300
 
 qtxmlpatterns-opensource-src (5.7.0-1) experimental; urgency=medium
 
