@@ -44,3 +44,6 @@ override_dh_strip:
 override_dh_auto_test-arch:
 	# Make the tests non-fatal, see the 5.7.1~20161021-2 changelog.
 	-dh_auto_test
+
+override_dh_auto_test-indep:
+	# Nothing to do here.
