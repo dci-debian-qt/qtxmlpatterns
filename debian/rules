@@ -40,3 +40,7 @@ override_dh_makeshlibs:
 
 override_dh_strip:
 	dh_strip --dbgsym-migration='qtxmlpatterns5-dbg (<< 5.6.0~rc-1~)'
+
+override_dh_auto_test:
+	# Make the tests non-fatal, see the 5.7.1~20161021-2 changelog.
+	-dh_auto_test
