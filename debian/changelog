@@ -1,8 +1,9 @@
 qtxmlpatterns-opensource-src (5.7.1-0neon) UNRELEASED; urgency=medium
 
   * New build
+  * neon build
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Jan 2017 14:28:32 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Jan 2017 14:36:55 +0000
 
 qtxmlpatterns-opensource-src (5.7.1~20161021-3) unstable; urgency=medium
 
