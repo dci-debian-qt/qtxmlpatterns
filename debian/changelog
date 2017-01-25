@@ -1,3 +1,9 @@
+qtxmlpatterns-opensource-src (5.7.1-0neon) UNRELEASED; urgency=medium
+
+  * New build
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Jan 2017 14:28:32 +0000
+
 qtxmlpatterns-opensource-src (5.7.1~20161021-3) unstable; urgency=medium
 
   * Override tests just when building arch dependant packages.
