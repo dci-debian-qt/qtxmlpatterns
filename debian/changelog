@@ -1,3 +1,10 @@
+qtxmlpatterns-opensource-src (5.8.0+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Simon Quigley ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Feb 2017 20:39:21 -0600
+
 qtxmlpatterns-opensource-src (5.7.1~20161021-3) unstable; urgency=medium
 
   * Override tests just when building arch dependant packages.
