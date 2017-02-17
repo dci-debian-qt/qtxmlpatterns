@@ -2,6 +2,7 @@ qtxmlpatterns-opensource-src (5.8.0+dfsg-1) UNRELEASED; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
+  * Bump dpkg-dev build-dependency to 1.17.14, for build profiles.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Feb 2017 20:39:21 -0600
 
