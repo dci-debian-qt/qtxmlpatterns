@@ -5,6 +5,9 @@ qtxmlpatterns-opensource-src (5.8.0+dfsg-1) UNRELEASED; urgency=medium
   * Bump dpkg-dev build-dependency to 1.17.14, for build profiles.
   * Do not build the documentation packages when the nodoc profile is enabled.
 
+  [ Dmitry Shachnev ]
+  * Bump Qt build-dependencies to 5.8.0.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Feb 2017 20:39:21 -0600
 
 qtxmlpatterns-opensource-src (5.7.1~20161021-3) unstable; urgency=medium
