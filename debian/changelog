@@ -8,6 +8,7 @@ qtxmlpatterns-opensource-src (5.8.0+dfsg-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Bump Qt build-dependencies to 5.8.0.
   * Add qtxmlpatterns-config.h to debian/libqt5xmlpatterns5-dev.install.
+  * Add Qt_5.8 version tag to debian/libqt5xmlpatterns5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 Feb 2017 20:39:21 -0600
 
