@@ -23,6 +23,7 @@ usr/include/*/qt5/QtXmlPatterns/qabstractxmlnodemodel.h
 usr/include/*/qt5/QtXmlPatterns/qabstractxmlreceiver.h
 usr/include/*/qt5/QtXmlPatterns/qsimplexmlnodemodel.h
 usr/include/*/qt5/QtXmlPatterns/qsourcelocation.h
+usr/include/*/qt5/QtXmlPatterns/qtxmlpatterns-config.h
 usr/include/*/qt5/QtXmlPatterns/qtxmlpatternsglobal.h
 usr/include/*/qt5/QtXmlPatterns/qtxmlpatternsversion.h
 usr/include/*/qt5/QtXmlPatterns/qxmlformatter.h
