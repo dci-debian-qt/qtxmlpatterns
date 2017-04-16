@@ -1,3 +1,9 @@
+qtxmlpatterns-opensource-src (5.9.0~beta-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Apr 2017 15:28:19 -0500
+
 qtxmlpatterns-opensource-src (5.8.0-1) experimental; urgency=medium
 
   [ Simon Quigley ]
