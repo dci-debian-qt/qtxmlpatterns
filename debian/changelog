@@ -1,3 +1,9 @@
+qtxmlpatterns-opensource-src (5.9.0-0neon) UNRELEASED; urgency=medium
+
+  * New release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 01 Jun 2017 15:58:11 +0100
+
 qtxmlpatterns-opensource-src (5.9.0~beta-1) experimental; urgency=medium
 
   * Team upload.
