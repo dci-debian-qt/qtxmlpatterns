@@ -1,9 +1,24 @@
-qtxmlpatterns-opensource-src (5.7.1-0neon) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.9.0~beta-1) experimental; urgency=medium
 
-  * New build
-  * neon build
+  * Team upload.
+  * New upstream release.
+  * Bump build deps to 5.9.0~beta.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Jan 2017 14:36:55 +0000
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 16 Apr 2017 15:28:19 -0500
+
+qtxmlpatterns-opensource-src (5.8.0-1) experimental; urgency=medium
+
+  [ Simon Quigley ]
+  * New upstream release.
+  * Bump dpkg-dev build-dependency to 1.17.14, for build profiles.
+  * Do not build the documentation packages when the nodoc profile is enabled.
+
+  [ Dmitry Shachnev ]
+  * Bump Qt build-dependencies to 5.8.0.
+  * Add qtxmlpatterns-config.h to debian/libqt5xmlpatterns5-dev.install.
+  * Add Qt_5.8 version tag to debian/libqt5xmlpatterns5.symbols.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 26 Feb 2017 20:38:37 +0300
 
 qtxmlpatterns-opensource-src (5.7.1~20161021-3) unstable; urgency=medium
 
@@ -15,7 +30,7 @@ qtxmlpatterns-opensource-src (5.7.1~20161021-3) unstable; urgency=medium
 qtxmlpatterns-opensource-src (5.7.1~20161021-2) experimental; urgency=medium
 
   * Make tests non-fatal. We enabled test on the 5.7 round and discovered
-    that some of them where failing. As Dmitry Schanev discovered this is no
+    that some of them where failing. As Dmitry Shachnev discovered this is no
     regresion from 5.6 and we need to get 5.7 into testing before the
     transition freeze we are making them non-fatal.
 
