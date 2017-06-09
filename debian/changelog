@@ -3,6 +3,9 @@ qtxmlpatterns-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
   [ Simon Quigley ]
   * New upstream release.
 
+  [ Dmitry Shachnev ]
+  * Add two new symbols to debian/libqt5xmlpatterns5.symbols.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Jun 2017 22:12:54 -0500
 
 qtxmlpatterns-opensource-src (5.9.0~beta-1) experimental; urgency=medium
