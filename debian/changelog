@@ -1,8 +1,14 @@
-qtxmlpatterns-opensource-src (5.9.0-0neon) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.9.0-1) experimental; urgency=medium
 
-  * New release
+  * Team upload.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 01 Jun 2017 15:58:11 +0100
+  [ Simon Quigley ]
+  * New upstream release.
+
+  [ Dmitry Shachnev ]
+  * Add two new symbols to debian/libqt5xmlpatterns5.symbols.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 11:18:58 -0500
 
 qtxmlpatterns-opensource-src (5.9.0~beta-1) experimental; urgency=medium
 

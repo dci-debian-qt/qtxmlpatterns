@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64
+# SymbolsHelper-Confirmed: 5.9.0 amd64
 libQt5XmlPatterns.so.5 libqt5xmlpatterns5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta
@@ -154,8 +154,10 @@ libQt5XmlPatterns.so.5 libqt5xmlpatterns5 #MINVER#
  _ZN8QXmlName13fromClarkNameERK7QStringRK12QXmlNamePool@Qt_5 5.0.2
  _ZN8QXmlName8isNCNameERK7QString@Qt_5 5.0.2
  _ZN8QXmlNameC1ER12QXmlNamePoolRK7QStringS4_S4_@Qt_5 5.0.2
+ _ZN8QXmlNameC1ERKS_@Qt_5 5.9.0
  _ZN8QXmlNameC1Ev@Qt_5 5.0.2
  _ZN8QXmlNameC2ER12QXmlNamePoolRK7QStringS4_S4_@Qt_5 5.0.2
+ _ZN8QXmlNameC2ERKS_@Qt_5 5.9.0
  _ZN8QXmlNameC2Ev@Qt_5 5.0.2
  _ZN8QXmlNameaSERKS_@Qt_5 5.0.2
  _ZN9QXmlQuery12bindVariableERK7QStringP9QIODevice@Qt_5 5.0.2
