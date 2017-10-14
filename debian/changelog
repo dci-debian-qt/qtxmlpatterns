@@ -3,6 +3,7 @@ qtxmlpatterns-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Minor debian/copyright updates.
+  * Bump qtbase5-private-dev build-dependency to 5.9.2.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 14 Oct 2017 10:31:54 +0300
 
