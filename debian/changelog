@@ -1,3 +1,11 @@
+qtxmlpatterns-opensource-src (5.9.3-0neon) UNRELEASED; urgency=medium
+
+  * New release
+  * New release
+  * new release
+
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:11 +0000
+
 qtxmlpatterns-opensource-src (5.9.2-3) unstable; urgency=medium
 
   * Really upload to unstable.
@@ -23,13 +31,6 @@ qtxmlpatterns-opensource-src (5.9.2-1) experimental; urgency=medium
   * Use debhelper compat level 10 and dh_missing.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Sun, 15 Oct 2017 00:08:19 +0300
-
-qtxmlpatterns-opensource-src (5.9.2-0neon) UNRELEASED; urgency=medium
-
-  * New release
-  * New release
-
- -- Jonathan Riddell <jr@jriddell.org>  Fri, 10 Nov 2017 11:41:41 +0000
 
 qtxmlpatterns-opensource-src (5.9.1-2) unstable; urgency=medium
 
