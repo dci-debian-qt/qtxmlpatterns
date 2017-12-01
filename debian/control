@@ -7,13 +7,13 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper (>= 9.20160114~),
+Build-Depends: debhelper (>= 10.3),
                dpkg-dev (>= 1.17.14),
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.9.0+dfsg~)
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.0+dfsg~) <!nodoc>,
-                     qttools5-dev-tools (>= 5.9.0~) <!nodoc>
-Standards-Version: 3.9.8
+               qtbase5-private-dev (>= 5.9.2+dfsg-3~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.2+dfsg~) <!nodoc>,
+                     qttools5-dev-tools (>= 5.9.2-2~) <!nodoc>
+Standards-Version: 4.1.1
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtxmlpatterns.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtxmlpatterns.git
@@ -66,7 +66,6 @@ Description: Qt 5 XML patterns examples
 
 Package: qtxmlpatterns5-doc
 Build-Profiles: <!nodoc>
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
@@ -79,7 +78,6 @@ Description: Qt 5 XML patterns documentation
 
 Package: qtxmlpatterns5-doc-html
 Build-Profiles: <!nodoc>
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
