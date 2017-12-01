@@ -28,7 +28,6 @@ qtxmlpatterns-opensource-src (5.9.2-1) experimental; urgency=medium
   * Minor debian/copyright updates.
   * Bump Qt build-dependencies to 5.9.2.
   * Bump Standards-Version to 4.1.1, stop using deprecated Priority: extra.
-  * Use debhelper compat level 10 and dh_missing.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Sun, 15 Oct 2017 00:08:19 +0300
 
