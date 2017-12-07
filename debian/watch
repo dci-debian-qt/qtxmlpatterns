@@ -1,2 +1,2 @@
 version=3
-https://download.qt.io/official_releases/qt/([\d\.]*)/([\d\.]*)/submodules/qtxmlpatterns-opensource-src-([^-]*)\.tar\.xz
+https://download.qt.io/official_releases/qt/([\d\.]*)/([\d\.]*)/submodules/qtxmlpatterns-everywhere-src-([^-]*)\.tar\.xz
