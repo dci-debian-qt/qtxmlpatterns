@@ -5,6 +5,7 @@ qtxmlpatterns-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
   * Update debian/watch for the new tarball names.
   * Bump Qt build-dependencies to 5.10.0.
   * Use dh_auto_configure provided by debhelper.
+  * Add Qt_5.10 symbol to debian/libqt5xmlpatterns5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Dec 2017 15:32:40 +0300
 
