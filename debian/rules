@@ -5,16 +5,13 @@
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
-export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
-export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
-export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
 %:
 	dh $@ --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
-	qmake QT_BUILD_PARTS+=tests
+	dh_auto_configure -- QT_BUILD_PARTS+=tests
 
 override_dh_auto_build-indep:
 	dh_auto_build -- docs
