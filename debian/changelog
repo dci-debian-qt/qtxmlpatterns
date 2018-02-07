@@ -6,11 +6,18 @@ qtxmlpatterns-opensource-src (5.10.0-2) experimental; urgency=medium
 
 qtxmlpatterns-opensource-src (5.10.0-1) experimental; urgency=medium
 
+<<<<<<<
   * New upstream release.
   * Update debian/watch for the new tarball names.
   * Bump Qt build-dependencies to 5.10.0.
   * Use dh_auto_configure provided by debhelper (closes: #881388).
   * Add Qt_5.10 symbol to debian/libqt5xmlpatterns5.symbols.
+=======
+  [ Dmitry Shachnev ]
+  * New upstream release.
+  * Update debian/watch for the new tarball names.
+  * Bump Qt build-dependencies to 5.10.0.
+>>>>>>>
 
  -- Dmitry Shachnev <mitya57@debian.org>  Thu, 07 Dec 2017 16:30:00 +0300
 
