@@ -4,6 +4,7 @@ qtxmlpatterns-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update debian/copyright.
   * Bump Qt build-dependencies to 5.10.1.
+  * Update Vcs fields for migration to salsa.debian.org.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Feb 2018 21:46:03 +0300
 
