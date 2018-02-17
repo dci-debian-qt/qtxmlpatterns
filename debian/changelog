@@ -1,3 +1,10 @@
+qtxmlpatterns-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Feb 2018 21:46:03 +0300
+
 qtxmlpatterns-opensource-src (5.10.0-2) experimental; urgency=medium
 
   * Build-depend on 5.10.0+dfsg-2, to pick up the new ABI version.
