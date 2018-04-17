@@ -1,9 +1,9 @@
-qtxmlpatterns-opensource-src (5.9.5-0ubuntu1) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.9.5-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
   * Bump build dependencies to Qt 5.9.5.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 12 Apr 2018 19:38:34 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 15 Apr 2018 20:52:46 -0500
 
 qtxmlpatterns-opensource-src (5.9.4-0ubuntu2) bionic; urgency=medium
 
