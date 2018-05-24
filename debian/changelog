@@ -7,6 +7,7 @@ qtxmlpatterns-opensource-src (5.11.0-1) UNRELEASED; urgency=medium
   * Bump Standards-version to 4.1.4, no changes needed.
   * Bump debhelper compat to 11, no changes needed.
   * Bump build dependencies to 5.11.0.
+  * Update symbol from build logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Apr 2018 12:49:00 -0500
 
