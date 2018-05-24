@@ -4,6 +4,7 @@ qtxmlpatterns-opensource-src (5.11.0-1) UNRELEASED; urgency=medium
   * Add my name to Uploaders.
   * New upstream release.
   * Add my name to the copyright file.
+  * Bump Standards-version to 4.1.4, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Apr 2018 12:49:00 -0500
 
