@@ -1,10 +1,9 @@
-qtxmlpatterns-opensource-src (5.11.1-1) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.11.1-1) experimental; urgency=medium
 
-  [ Simon Quigley ]
   * New upstream release.
   * Bump build dependencies to 5.11.1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jun 2018 15:00:57 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 19 Jun 2018 15:15:58 -0500
 
 qtxmlpatterns-opensource-src (5.11.0-1) experimental; urgency=medium
 
