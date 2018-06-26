@@ -1,3 +1,17 @@
+qtxmlpatterns-opensource-src (5.11.1-2) experimental; urgency=medium
+
+  * Remove the dbgsym migration section of debian/rules; it isn't needed
+    anymore.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 22 Jun 2018 13:42:55 -0500
+
+qtxmlpatterns-opensource-src (5.11.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump build dependencies to 5.11.1.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 19 Jun 2018 15:15:58 -0500
+
 qtxmlpatterns-opensource-src (5.11.0-1) experimental; urgency=medium
 
   * Add my name to Uploaders.
