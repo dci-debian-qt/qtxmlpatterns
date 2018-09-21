@@ -4,6 +4,7 @@ qtxmlpatterns-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.11.2.
   * Re-enable the tests. They are passing on all release architectures.
+  * Bump Standards-Version to 4.2.1, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Sep 2018 12:13:34 +0300
 
