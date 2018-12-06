@@ -11,7 +11,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
 Build-Depends: debhelper (>= 11),
                dpkg-dev (>= 1.17.14),
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.11.3+dfsg-2~)
+               qtbase5-private-dev (>= 5.11.3+dfsg~)
 Build-Depends-Indep: qttools5-dev-tools (>= 5.11.3~) <!nodoc>
 Standards-Version: 4.2.1
 Homepage: http://qt-project.org/
