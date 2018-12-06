@@ -1,4 +1,8 @@
-qtxmlpatterns-opensource-src (5.11.2-3) UNRELEASED; urgency=medium
+qtxmlpatterns-opensource-src (5.11.3-1) UNRELEASED; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
+    - Bump Qt build dependencies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Dec 2018 21:05:21 -0300
 
